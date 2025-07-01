@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shellixₒₛ</title>
+  <link rel="icon" href="icons/shellix.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="subos-ui">
+    <div class="top-bar">
+      <span class="logo">Shellixₒₛ</span>
+      <span id="focused-app-name">No App Focused</span>
+    </div>
+    <div class="app-grid">
+      <div class="app" onclick="launchApp('terminal')">🖥 Terminal</div>
+      <div class="app" onclick="launchApp('ado')">🧰 ADO</div>
+      <div class="app" onclick="launchApp('settings.sys')">⚙️ Settings</div>
+    </div>
+    <div id="app-window" class="window hidden">
+      <div class="window-header">
+        <span id="window-title">App</span>
+        <button onclick="closeApp()">X</button>
+      </div>
+      <div class="window-body">
+        <p>App content goes here.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
