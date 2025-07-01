@@ -1,0 +1,52 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #1c1c1c;
+  color: white;
+  font-family: sans-serif;
+  height: 100%;
+}
+.subos-ui {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.top-bar {
+  background: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo { font-weight: bold; }
+.app-grid {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+.app {
+  background: #444;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.window {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 400px;
+  background: #222;
+  border: 2px solid #666;
+  border-radius: 8px;
+}
+.window-header {
+  background: #555;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.window-body {
+  padding: 10px;
+}
+.hidden { display: none; }
